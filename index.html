@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altdif</title>
+  <link rel="stylesheet" href="./css/main.css" tyle="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 아이콘폰트 주소 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- 부트스트랩아이콘 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- css3추가속성시 접두사 자동으로 붙여주는 스크립트 -->
+  <!-- <script src="./script/prefixfree.min.js"></script> -->
+  <!-- 제이쿼리 라이브러리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- 제이쿼리 ui라이브러리 -->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="./script/main.js"></script>
+</head>
+<body>
+  <input type="checkbox" id="toggle">
+      <aside>
+        <label for="toggle" class="c_btn">
+          <i class="fa-solid fa-x"></i>
+        </label>
+          <ul>
+            <li>CATEGORIES</li>
+            <li>
+              <a href="#;" title="BRAND">BRAND<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="option">
+                <li><a href="#;" title="공지">공지</a></li>
+                <li><a href="#;" title="브랜드 소개">브랜드 소개</a></li>
+                <li><a href="#;" title="오프라인 매장">오프라인 매장</a></li>
+                <li><a href="#;" title="미디어">미디어</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#;" title="OFFLINE">OFFLINE<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="option">
+                <li><a href="#;" title="홍대 티 바 소개">홍대 티 바 소개</a></li>
+                <li><a href="#;" title="티 코스 소개">티 코스 소개</a></li>
+                <li><a href="#;" title="티 바 메뉴">티 바 메뉴</a></li>
+                <li><a href="#;" title="티 바 예약하기">티 바 예약하기</a></li>
+                <li><a href="#;" title="파트너">파트너</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#;" title="SHOP">SHOP<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="option">
+                <li><a href="#;" title="BEST">BEST</a></li>
+                <li><a href="#;" title="시그니처 블렌딩 티">시그니처 블렌딩 티</a></li>
+                <li><a href="#;" title="라이프 블렌딩 티">라이프 블렌딩 티</a></li>
+                <li><a href="#;" title="프리미엄 티">프리미엄 티</a></li>
+                <li><a href="#;" title="GIFT & SET">GIFT & SET</a></li>
+                <li><a href="#;" title="라이프스타일">라이프스타일</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#;" title="EVENT">EVENT<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="option">
+                <li><a href="#;" title="이벤트 소식">이벤트 소식</a></li>
+                <li><a href="#;" title="[오프라인] 라운지">[오프라인] 라운지</a></li>
+                <li><a href="#;" title="[온라인] 멤버십">[온라인] 멤버십</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#;" title="PLAY">PLAY<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="option">
+                <li><a href="#;" title="알디프 매거진">알디프 매거진</a></li>
+                <li><a href="#;" title="알디프 유튜브">알디프 유튜브</a></li>
+                <li><a href="#;" title="전국 티 룸 지도">전국 티 룸 지도</a></li>
+                <li><a href="#;" title="알디프 차 취향 테스트">알디프 차 취향 테스트</a></li>
+              </ul>
+            </li>
+            <li><a href="#;" title="REVIEW">REVIEW</a></li>
+        </ul>
+      </aside>
+  <div id="m_con">
+  <header>
+    <h1><a href="index.html"><img src="./images/logo.png" alt="메인로고"></a></h1>
+    <nav id="gnb">
+      <ul>
+        <li>
+          <a href="#;" title="BRAND">BRAND</a>
+          <ul>
+            <li><a href="#;" title="공지">공지</a></li>
+            <li><a href="#;" title="브랜드 소개">브랜드 소개</a></li>
+            <li><a href="#;" title="오프라인 매장">오프라인 매장</a></li>
+            <li><a href="#;" title="미디어">미디어</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#;" title="OFFLINE">OFFLINE</a>
+          <ul>
+            <li><a href="#;" title="홍대 티 바 소개">홍대 티 바 소개</a></li>
+            <li><a href="#;" title="티 코스 소개">티 코스 소개</a></li>
+            <li><a href="#;" title="티 바 메뉴">티 바 메뉴</a></li>
+            <li><a href="#;" title="티 바 예약하기">티 바 예약하기</a></li>
+            <li><a href="#;" title="파트너">파트너</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#;" title="SHOP">SHOP</a>
+          <ul>
+            <li><a href="#;" title="BEST">BEST</a></li>
+            <li><a href="#;" title="시그니처 블렌딩 티">시그니처 블렌딩 티</a></li>
+            <li><a href="#;" title="라이프 블렌딩 티">라이프 블렌딩 티</a></li>
+            <li><a href="#;" title="프리미엄 티">프리미엄 티</a></li>
+            <li><a href="#;" title="GIFT & SET">GIFT & SET</a></li>
+            <li><a href="#;" title="라이프스타일">라이프스타일</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#;" title="EVENT">EVENT</a>
+          <ul>
+            <li><a href="#;" title="이벤트 소식">이벤트 소식</a></li>
+            <li><a href="#;" title="[오프라인] 라운지">[오프라인] 라운지</a></li>
+            <li><a href="#;" title="[온라인] 멤버십">[온라인] 멤버십</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#;" title="PLAY">PLAY</a>
+          <ul>
+            <li><a href="#;" title="알디프 매거진">알디프 매거진</a></li>
+            <li><a href="#;" title="알디프 유튜브">알디프 유튜브</a></li>
+            <li><a href="#;" title="전국 티 룸 지도">전국 티 룸 지도</a></li>
+            <li><a href="#;" title="알디프 차 취향 테스트">알디프 차 취향 테스트</a></li>
+          </ul>
+        </li>
+        <li><a href="#;" title="REVIEW">REVIEW</a></li>
+    </ul>
+    </nav>
+    <div id="lojo">
+      <p><a href="#;" title="로그인">로그인</a> | <a href="#;" title="회원가입">회원가입</a></p>
+    </div>
+    <a href="#;" title="장바구니"><i class="bi bi-cart3"></i></a>
+    <a href="#;" title="마이페이지"><i class="bi bi-person"></i></a>
+    <label for="toggle" class="tt_btn"><i class="bi bi-list"></i></label>
+  </header>
+
+    <main>
+      <section id="sld">
+        <div id="m_slide">
+          <img src="./images/bn1.jpg" alt="메인페이지배너">
+          <img src="./images/bn2.jpg" alt="메인페이지배너">
+          <img src="./images/bn3.jpg" alt="메인페이지배너">
+          <img src="./images/bn4.jpg" alt="메인페이지배너">
+          <img src="./images/bn5.jpg" alt="메인페이지배너">
+        </div>
+      </section>
+      <section id="s_tl">
+        <a href="#;" title="페이지 이동">
+          <p>Tea Best</p>
+          <img src="./images/tea_s.png" alt="링크">
+        </a>
+        <a href="#;" title="페이지 이동">
+          <p>Life Style</p>
+          <img src="./images/l_s.png" alt="링크"
+          ></a>
+      </section>
+      <section id="We">
+        <img src="./images/WE.png" alt="We Blend Life, Altdif">
+        <p>차를 마신다는 건 사소한 행위이지만 삶을 바꾸는 건 언제나 사소한 순간들이지요.<br>
+          ‘We Blend Life’ 라는 모토 아래 알디프는 차가 있는 일상의 즐거움과 개인의 취향을 블렌딩해<br>
+          가장 감각적이고 소중한 순간의 경험을 선사합니다.</p>
+      </section>
+      <section id="eve">
+        <div>
+          <a href="#;" title="이벤트" class="ef01">
+            <img src="./images/eve1.jpg" alt="이벤트">
+            <p>나의 차 취향 알아보기</p>
+          </a>
+          <a href="#;" title="이벤트" class="ef02">
+            <img src="./images/eve2.jpg" alt="이벤트">
+            <p>지금 회원가입 하면 990원</p>
+          </a>
+          <a href="#;" title="이벤트" class="ef01">
+            <img src="./images/eve3.jpg" alt="이벤트">
+            <p>선물하기 좋은 추천템</p>
+          </a>
+        </div>
+      </section>
+      <section id="shop">
+        <h3>PRODUCT</h3>
+        <p class="bar"></p>
+        <article class="con">
+          <a href="#;" title="tea1">
+            <img src="./images/tea1.jpg" alt="tea1">
+            <p class="c_p1">샹들리에</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+          <a href="#;" title="tea2">
+            <img src="./images/tea2.jpg" alt="tea2">
+            <p class="c_p1">밀키 애프터 이미지</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+          <a href="#;" title="tea3">
+            <img src="./images/tea3.jpg" alt="tea3">
+            <p class="c_p1">경화수월</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+          <a href="#;" title="tea4">
+            <img src="./images/tea4.jpg" alt="tea4">
+            <p class="c_p1">비포 선셋</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+          <a href="#;" title="tea5">
+            <img src="./images/tea5.jpg" alt="tea5">
+            <p class="c_p1">나랑 갈래</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+          <a href="#;" title="tea6">
+            <img src="./images/tea6.jpg" alt="tea6">
+            <p class="c_p1">올드 블랙 매직</p>
+            <p class="c_p2">알디프 시그니처 블렌딩 티 8입</p>
+            <p class="c_p3">12,800원</p>
+          </a>
+        </article>
+      </section>
+      <section id="mega">
+        <article>
+          <a href="#;"><img src="./images/m1.jpg" alt="MEGAZIN"></a>
+          <a href="#;"><img src="./images/m2.jpg" alt="MEGAZIN"></a>
+          <a href="#;"><img src="./images/m3.jpg" alt="MEGAZIN"></a>
+          <a href="#;"><img src="./images/m4.jpg" alt="MEGAZIN"></a>
+        </article>
+      </section>
+    </main>
+  <footer>
+    <div id="top">
+      <a href="#" title="맨위로"><i class="fa-solid fa-chevron-up"></i></a>
+    </div>
+    <div id="f_top">
+      <table id="cr_c">
+        <tr>
+          <th colspan="2">C/S CENTER</th>
+        </tr>
+        <tr>
+          <td class="num">070.7759.5033</td>
+          <td class="num_s">화~토 11:30 - 21:30 (일, 월 휴무)<br>
+            티 바 이용 및 예약, 오프라인 제품 구매 문의</td>
+        </tr>
+        <tr>
+          <td class="num">070.8860.5033</td>
+          <td class="num_s">월~금 10:30 - 18:30 (토, 일 휴무)<br>
+            온라인 제품 구매, 배송, 도매, 협업 및 기타 문의</td>
+        </tr>
+      </table>
+      <div id="f_mn">
+        <ul>
+          <li>ABOUT US
+            <ul>
+              <li><a href="#;" title="푸터내비">회사소개</a></li>
+              <li><a href="#;" title="푸터내비">채용</a></li>
+              <li><a href="#;" title="푸터내비">멤버십 안내</a></li>
+            </ul>
+          </li>
+          <li>C/S CENTER
+            <ul>
+              <li><a href="#;" title="푸터내비">공지사항</a></li>
+              <li><a href="#;" title="푸터내비">카카오톡 문의</a></li>
+              <li><a href="#;" title="푸터내비">QnA</a></li>
+              <li><a href="#;" title="푸터내비">상품후기</a></li>
+              <li><a href="#;" title="푸터내비">개인결제</a></li>
+            </ul>
+          </li>
+          <li>MY PAGE
+            <ul>
+              <li><a href="#;" title="푸터내비">관심상품</a></li>
+              <li><a href="#;" title="푸터내비">주문조회</a></li>
+              <li><a href="#;" title="푸터내비">장바구니</a></li>
+              <li><a href="#;" title="푸터내비">쿠폰조회</a></li>
+              <li><a href="#;" title="푸터내비">회원정보 수정</a></li>
+            </ul>
+          </li>
+          <li>PARTNER
+            <ul>
+              <li><a href="#;" title="푸터내비">파트너 현황</a></li>
+              <li><a href="#;" title="푸터내비">전용 상품</a></li>
+              <li><a href="#;" title="푸터내비">파트너 문의</a></li>
+            </ul>
+          </li>
+          <li>한국 티 스페셜리스트 협회
+            <ul>
+              <li><a href="#;" title="푸터내비">교육과정</a></li>
+              <li><a href="#;" title="푸터내비">자격증</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="f_bottom">
+      <div id="f_nav">
+        <ul>
+          <li><a href="#;" title="이용약관">이용약관</a></li>
+          <li><a href="#;" title="개인정보취급방침">개인정보취급방침</a></li>
+          <li><a href="#;" title="이용안내">이용안내</a></li>
+        </ul>
+      </div>
+      <div id="sns">
+        <a href=""><img src="./images/footer_sns_img_01.jpg" alt="푸터sns"></a>
+        <a href=""><img src="./images/footer_sns_img_02.jpg" alt="푸터sns"></a>
+        <a href=""><img src="./images/footer_sns_img_04.jpg" alt="푸터sns"></a>
+        <a href=""><img src="./images/footer_sns_img_06.jpg" alt="푸터sns"></a>
+        <a href=""><img src="./images/footer_sns_img_07.jpg" alt="푸터sns"></a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
